@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  open: false
+  available: 1
+  station: 
+
+two:
+  open: false
+  available: 1
+  station: 
