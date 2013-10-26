@@ -3,7 +3,7 @@ class CreateStatuses < ActiveRecord::Migration
     create_table :statuses do |t|
       t.boolean :open
       t.integer :available
-      t.reference :station
+      t.references :station
 
       t.timestamps
     end
